@@ -96,22 +96,92 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+}
 
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
 
+.container {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+    text-align: center;
+}
 
+.choice {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.5em;
+    margin: 1em auto;
+}
 
+.x {
+    font-size: 2em;
+    margin-right: .2em;
+}
 
+.o {
+    font-size: 2em;
+    margin-left: .2em;
+}
 
+.x:hover,
+.o:hover {
+    color: red;
+}
 
+.xmark, .omark, .placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+}
 
+.placeholder {
+    color: #000;
+}
 
+.grid-lines {
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
 
+/* create 2 horizontal lines */
+.row1-col1,
+.row1-col2,
+.row1-col3,
+.row2-col1,
+.row2-col2,
+.row2-col3 {
+    border-bottom: 2px solid yellow;
+    width: 32%;
+    line-height: 5em;
+    display: inline-block;
+}
 
+/* create 2 vertical lines */
+.row1-col1,
+.row2-col1,
+.row3-col1,
+.row1-col2,
+.row2-col2,
+.row3-col2 {
+    border-right: 2px solid yellow;
+    width: 32%;
+    line-height: 5em;
+    display: inline-block;
+}
 
-
-
-
-
+.row3-col3 {
+    width: 32%;
+    line-height: 5em;
+    display: inline-block;
+}
 
 /* ==========================================================================
    Helper classes
